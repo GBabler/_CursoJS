@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        var a = true;
+
+        while(a){
+
+       var numero = Number(window.prompt(` [1] Consultar saldo. \n [2] Sacar dinheiro. \n [3] Depositar dinheiro \n [0] Sair`));
+    
+        switch(numero){
+
+            case 1:
+
+                var saldo = 500;
+                window.prompt(`Saldo Atual: ${saldo.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}\n[1] Consultar saldo. \n[2] Sacar dinheiro. \n[3] Depositar dinheiro \n[0] Sair`);
+               
+
+            break;
+            case 2:
+                window.prompt(`[1] Consultar saldo. <br> [2] Sacar dinheiro. <br> [3] Depositar dinheiro`);
+            break;
+        }
+
+                }
+    </script>
+</body>
+</html>
