@@ -1,6 +1,7 @@
 body{
     background-color: rgb(83, 43, 226);
-    font: normal 15pt Arialç
+    font: normal 15pt Arial;
+
 }
 
 header{
@@ -21,4 +22,26 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+img#foto{
+    margin-top: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    border-radius: 100%;
+    
+}
+
+input#btnInput{
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.185);
+
+}
+
+div{
+
+    text-align: center;
+
 }
