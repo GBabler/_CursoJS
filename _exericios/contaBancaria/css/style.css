@@ -1,0 +1,40 @@
+body{
+    font: normal 10pt Arial;
+}
+
+header {
+    text-align: center;
+}
+
+div#saldoAtual{
+    text-align: right;
+}
+section{
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    height: 300px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(151, 47, 248), rgb(151, 47, 248));
+}
+div#telaConsulta{
+text-align: center;
+margin-top: 50%;
+}
+
+input#btnConsulta{
+    width: 100px;
+    height: 70px;
+}
+
+footer{
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 15px;
+
+    
+}
+
+
+
